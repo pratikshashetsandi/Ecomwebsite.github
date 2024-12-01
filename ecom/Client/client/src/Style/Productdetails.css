@@ -1,0 +1,135 @@
+/* Productdetails.css */
+
+/* General Container Styles */
+.product-details {
+  padding: 20px;
+  background-color: #f0f2f5; /* Light gray background for the whole container */
+}
+
+.product-details-info {
+  padding: 20px;
+  background-color: #ffffff; /* White background for the product details */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-details-info h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.product-details-info h6 {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #28a745; /* Green background for primary button */
+  border-color: #28a745;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 20px; /* Add padding for better button appearance */
+}
+
+.btn-primary:hover {
+  background-color: #218838; /* Darker green for hover effect */
+  border-color: #1e7e34;
+}
+
+.btn-secondary {
+  background-color: #17a2b8; /* Teal background for secondary button */
+  border-color: #17a2b8;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 20px; /* Add padding for better button appearance */
+}
+
+.btn-secondary:hover {
+  background-color: #138496; /* Darker teal for hover effect */
+  border-color: #117a8b;
+}
+
+.btn-info {
+  background-color: #007bff; /* Blue background for info button */
+  border-color: #007bff;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 20px; /* Add padding for better button appearance */
+}
+
+.btn-info:hover {
+  background-color: #0056b3; /* Darker blue for hover effect */
+  border-color: #004080;
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #ffffff; /* White background for cards */
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center align items */
+  padding: 15px; /* Add padding inside the card */
+  max-width:900px;
+  height: 600px; /* Set a maximum width for the card */
+  margin: 10px; /* Add margin around cards */
+}
+
+.card-img-top {
+  width: 500%; /* Make the image cover the full width of the card */
+  height: 500px; /* Set a fixed height */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-price {
+  font-size: 16px;
+  color: #007bff; /* Blue color for the price */
+}
+
+.card-text {
+  font-size: 14px;
+  color: #666;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.row.container {
+  margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 800px) {
+  .card {
+      max-width: 200%; /* Full width on small screens */
+  }
+
+  .product-details-info {
+      text-align: center; /* Center-align text on small screens */
+  }
+}

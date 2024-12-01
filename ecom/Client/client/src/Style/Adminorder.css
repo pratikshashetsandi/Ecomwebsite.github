@@ -1,0 +1,64 @@
+/* Orders.css */
+
+/* Container Styles */
+.orders-container {
+    padding: 50px;
+    background-color: #f8f9fa; /* Light gray background for the orders page */
+}
+
+/* Table Styles */
+.orders-table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.orders-table th {
+    background-color: #007bff; /* Blue background for table headers */
+    color: #fff;
+}
+
+.orders-table td {
+    vertical-align: auto;
+}
+
+/* Order Details Styles */
+.order-details {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff; /* White background for details */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.order-details img {
+    width: 100px; /* Adjust as needed */
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.order-details .details-content {
+    display: flex;
+    align-items: center;
+}
+
+.order-details .details-content p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .order-details {
+        display: block;
+    }
+
+    .order-details img {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .order-details .details-content {
+        display: block;
+    }
+}

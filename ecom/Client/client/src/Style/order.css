@@ -1,0 +1,57 @@
+/* Orders.css */
+
+/* Container Styles */
+.orders-container {
+    padding: 50px;
+    background-color: #f8f9fa; /* Light gray background for the orders page */
+  }
+  
+  /* Table Styles */
+  .orders-table {
+    margin-top: 20px;
+  }
+  
+  .orders-table th {
+    background-color: #007bff; /* Blue background for table headers */
+    color: #fff;
+  }
+  
+  .orders-table td {
+    vertical-align:auto;
+  }
+  
+  /* Card Styles */
+  .order-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    background-color: #fff; /* White background for cards */
+  }
+  
+  .order-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .order-card p {
+    margin: 0;
+  }
+  
+  .order-card .card-body {
+    padding: 15px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .order-card {
+      flex-direction: column;
+      text-align:left;
+    }
+  
+    .order-card img {
+      margin-bottom: 10px;
+    }
+  }
+  

@@ -1,0 +1,18 @@
+/* Container for the search input and button */
+.search-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    gap: 8px; /* Space between search input and button */
+  }
+  
+  /* Make sure the search input doesn't take more space than necessary */
+  .ant-input-search {
+    flex: 1; /* Allow the search input to take available space */
+    min-width: 0; /* Prevent input from overflowing its container */
+  }
+  
+  /* Ensure the button doesn't shrink too much */
+  .ant-btn {
+    white-space: nowrap; /* Prevent button text from wrapping */
+  }
+  

@@ -1,0 +1,78 @@
+/* Card layout for each cart item */
+.cart-page .card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 0.5rem; /* Reduced padding for more content space */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for the product image in the card */
+.cart-page .card-img-container {
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  overflow: hidden; /* Hide any part of the image that overflows */
+}
+
+.cart-page .card-img-top {
+  width: 100%;
+  height: 100%; /* Ensure the image covers the container */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+
+
+/* Text section */
+.cart-page .col-md-4 {
+  flex: 1;
+  min-width: 0; /* Ensures content doesn't overflow */
+  margin-right: 0.5rem;
+}
+
+/* Product name styling */
+.cart-page .col-md-4 p:first-child {
+  font-weight: bold;
+  margin-bottom: 0.25rem; /* Reduced margin */
+  font-size: 0.875rem; /* Reduced font size */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Description and price styling */
+.cart-page .col-md-4 p:nth-child(2),
+.cart-page .col-md-4 p:nth-child(3) {
+  font-size: 0.75rem; /* Further reduced font size */
+  margin-bottom: 0.25rem; /* Reduced margin */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Button container */
+.cart-page .cart-remove-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  min-width: 60px; /* Ensures button container has enough space */
+}
+
+/* Button styling */
+.cart-page .btn-danger {
+  font-size: 0.75rem; /* Further reduced font size */
+  padding: 0.3rem 0.6rem; /* Reduced padding for a more compact button */
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.cart-page .btn-danger:hover {
+  background-color: #c82333;
+}

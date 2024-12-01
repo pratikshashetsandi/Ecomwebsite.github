@@ -1,0 +1,39 @@
+/* Admind.css */
+
+/* Container Styles */
+.container {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Admin Menu Styles */
+.admin-menu {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #fff; /* White background for menu */
+}
+
+/* Admin Info Styles */
+.admin-info {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #fff; /* White background for info */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .row {
+      flex-direction: column;
+  }
+
+  .col-3, .col-9 {
+      width: 100%;
+      margin-bottom: 20px; /* Space between stacked columns */
+  }
+
+  .admin-info {
+      margin-top: 0;
+  }
+}

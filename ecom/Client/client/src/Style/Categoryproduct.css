@@ -1,0 +1,124 @@
+.container {
+  margin-top: 30px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 30px auto; /* Center the container */
+}
+
+.category {
+  margin-bottom: 40px;
+}
+
+.card {
+  width: 310px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 200px; /* Set a fixed height for images */
+  object-fit: cover; /* Ensure images cover the space without distortion */
+  width: 100%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05); /* Slightly enlarge image on hover for effect */
+}
+
+.card-body {
+  padding: 16px;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card-name-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+}
+
+.card-price {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #007bff;
+  margin: 0;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.btn {
+  font-size: 0.9rem;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  color: #fff;
+  border: none;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+}
+
+.btn-dark {
+  background-color: #343a40;
+  color: #fff;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #23272b;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Center items with space around */
+}
+
+.m-2 {
+  margin: 10px;
+}
+
+.mt-3 {
+  margin-top: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.offset-md-1 {
+  margin-left: 8.333333%;
+}
